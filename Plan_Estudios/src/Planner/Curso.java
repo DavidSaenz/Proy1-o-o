@@ -1,5 +1,5 @@
 package Planner;
 
-public class Clase {
+public class Curso {
 
 }
