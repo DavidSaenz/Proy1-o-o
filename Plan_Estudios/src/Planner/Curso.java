@@ -1,5 +1,7 @@
 package Planner;
 
+import java.util.*;
+
 public class Curso {
 	
 	
