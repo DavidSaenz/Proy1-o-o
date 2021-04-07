@@ -9,17 +9,23 @@ public class Curso {
 	//-----------------------------------------
 	//Attributes
 	
-	String ciclo;
 	String nombre;
-	String tipo;
-	int crn;
-	int codigo;
+	String codigo;
+	String prereq;
+	String coreq;
 	int creditos;
+	String tipo;
+	String ciclo;
+	
+	
+	int crn;
+	int periodo;
+	
 	String horario;
 	double nota;
 	String restricciones;
-	String coreq;
-	String prereq;
+	
+	
 	
 	
 	
@@ -45,7 +51,7 @@ public class Curso {
 		return crn;
 	}
 	
-	public int darCodigo() {
+	public String darCodigo() {
 		return codigo;
 	}
 	
@@ -72,6 +78,10 @@ public class Curso {
 	
 	public String darRestr() {
 		return restricciones;
+	}
+	
+	public int darPeriodo() {
+		return periodo;
 	}
 	
 }

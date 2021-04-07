@@ -1,0 +1,37 @@
+Introducción a la Programación;ISIS-1221;ninguno;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Estructuras de Datos y Algoritmos;ISIS-1225;ISIS-1221;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Estructura de Datos;ISIS-1206;ISIS-1225;;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Diseño y Análilsis de Algoritmos;ISIS-1105;ISIS-1206;ISIS-1005;0;Fundamentos de ingeniería de sistemas;16 semanas
+Laboratorio Diseño y Análilsis de Algoritmos;ISIS-1005;ISIS-1206;ISIS-1105;0;Fundamentos de ingeniería de sistemas;16 semanas
+Matemática Estructural; ISIS-1104;ISIS-1221;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Fundamentos de Infraestructura Tecnológica;ISIS-1304;ISIS-1225;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Lenguajes y Máquinas;ISIS-1106;ISIS-1104;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+TI en las Organizaciones;ISIS-1404;ISIS-1221;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Desarrollo de SW en Equipo;ISIS-2603;ISIS-1206;ninguno;3;Fundamentos de ingeniería de sistemas;16 semanas
+Cálculo Diferencial;MATE-1203;ninguno;ninguno;3;Matemáticas y ciencias básicas;16 semanas
+Cálculo Integral y Ecuaciones Diferenciales;MATE-1214;MATE-1203;ninguno;3;Matemáticas y ciencias básicas;16 semanas
+Algebra Líneal 1;MATE-1105;MATE-1203;ninguno;3;Matemáticas y ciencias básicas;16 semanas
+Cálculo Vectorial;MATE-1207;MATE-1214;ninguno;3;Matemáticas y ciencias básicas;16 semanas
+Física 1;FISI-1018;ninguno;FISI-1019;3;Matemáticas y ciencias básicas;16 semanas
+Física Experimental 1;FISI-1019;ninguno;FISI-1018;1;Matemáticas y ciencias básicas;16 semanas
+Física 2;FISI-1028;FISI-1018;FISI-1029;3;Matemáticas y ciencias básicas;16 semanas
+Física Experimental 2;Física Experimental 2;FISI-1018;FISI-1028;1;Matemáticas y ciencias básicas;16 semanas
+Sistemas Transaccionales;ISIS-2304;ISIS-1206;ninguno;3;Manejo de información;16 semanas
+Inteligencia de Negocios;ISIS-3301;ISIS-2304;ninguno;3;Manejo de información;16 semanas
+Infraestructura Computacional;ISIS-2203;ISIS-1304;ninguno;3;Desarrollo de infraesructura y seguridad;16 semanas
+Infraestructura de Comunicaciones;ISIS-3204;ISIS-2403;ninguno;3;Desarrollo de infraesructura y seguridad;16 semanas
+Arquitectura y Diseño de SW;ISIS-2503;ISIS-2603;ninguno;3;Construcción de soluciones de TI;16 semanas
+Programación con Tecnologías Web;ISIS-3710;ISIS-2503;ninguno;3;Construcción de soluciones de TI;16 semanas
+Construcción de Aplicaciones Móviles;ISIS-3510;ISIS-3204;ninguno;3;Construcción de soluciones de TI;16 semanas
+Análisis de Decisión e Inversión;IIND-2401;MATE-1105;ninguno;3;Fundamentos de ingeniería;16 semanas
+Probabilidad y Estadística I;IIND-2106;MATE-1214;ninguno;3;Fundamentos de ingeniería;16 semanas
+Electiva Regulada en Ingeniería;????????;?????????;???????;3;Fundamentos de ingeniería;16 semanas
+Introducción a la Ingeniería de Sistemas;ISIS-1001;ninguno;ISIS-1002;3;Cursos Proyecto;16 semanas
+Diseño de Productos e Innovación en TI;ISIS-2007;ISIS-2603;ISIS-2008;3;Cursos Proyecto;16 semanas
+Proyecto de Grado;ISIS-3007;ISIS-3204;ninguno;3;Cursos Proyecto;16 semanas
+Requisito de lectura de inglés;LENG-2999;ninguno;ninguno;0;Requisito de idiomas;no aplica
+Requisito de segunda lengua;LENG-3999;ninguno;ninguno;0;Requisito de idiomas;no aplica
+Arquitectura EmpresarialISIS-2403;ISIS-1404;3;Uso de TIC en contextos específicos;16 semanas
+Modelado, Simulación y Optimización;ISIS-3302;IIND-2106;3;Uso de TIC en contextos específicos;16 semanas
+Escritura Universitaria 1;LENG-1511;ninguno;ninguno;2;Educación general; 8 semanas
+Colombia Espacio, Tiempo, Diferencia;CBCC-1177;ninguno;ninguno;2;Educación general; 8 semanas
