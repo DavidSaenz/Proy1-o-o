@@ -43,6 +43,9 @@ public class Estudiantes {
 		//TODO
 	}
 	
+	public void cambiarNota(double pNota) {
+		//Curso.cambiarNota(pNota);
+	}
 	
 	
 	

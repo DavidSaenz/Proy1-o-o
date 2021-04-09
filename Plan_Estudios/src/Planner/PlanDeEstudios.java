@@ -13,6 +13,7 @@ public class PlanDeEstudios {
 	String planSugerido;
 	String requisitos;
 	File source = new File ("docs/data cursos.txt");
+	ArrayList<Curso> cursosCargados;  //TODO esta shit nos lamacena todos los cursos
 
 	//-------------------------------------------------------------
 	//methods
@@ -22,11 +23,7 @@ public class PlanDeEstudios {
 	}
 
 
-	public void cargarInfoBanner() {
-
-	}
-
-	public void escaneardoc() throws FileNotFoundException {
+	public void cargarInfoBanner()  throws FileNotFoundException {
 
 		try {
 			Scanner fScn = new Scanner(source);
@@ -34,11 +31,22 @@ public class PlanDeEstudios {
 
 			while( fScn.hasNextLine() ){
 				data = fScn.nextLine();
-
+				
+				
+				//Nombre materia; Código materia; prerrequisito; coreq; créditos; TipoDeCurso; Creditos;
+				
 				String[] token = data.split(";");
-				// NUM_BUZONES_P = Integer.parseInt(token[0]);
-				System.out.println(token[1]);
+				
+				
+				
+				 String inputNombre = token[0];
+				
+				//System.out.println(token[1]);
 
+				 
+				 
+			 Curso c = new Curso(inputNombre, inputCod, inputPrereq, inputCoreq, inputCreditos, inputTipo, inputCreditos)
+				cursosCargados.add(c);
 			}
 			fScn.close(); 
 		}
@@ -50,7 +58,7 @@ public class PlanDeEstudios {
 	public static void main(String[] args){         
 		PlanDeEstudios consola = new PlanDeEstudios();   
 		try{
-			consola.escaneardoc();   
+			consola.cargarInfoBanner();   
 		}
 		catch(IOException e) {
 			e.printStackTrace();

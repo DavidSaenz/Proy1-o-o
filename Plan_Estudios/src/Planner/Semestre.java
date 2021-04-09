@@ -1,5 +1,7 @@
 package Planner;
 
+import java.util.ArrayList;
+
 public class Semestre {
 
 	
@@ -8,8 +10,8 @@ public class Semestre {
 	//-----------------------------------------
 	//Attributes
 
-	Curso cursoInscrito;
-	Curso cursoAprobado; //TODO revisar, puede que esto toque modelar como contenedores
+	ArrayList<Curso> cursoInscrito;
+	ArrayList<Curso> cursoAprobado; 
 	String periodo;
 	Boolean probacionAcademica;
 	int creditosmax;
@@ -20,11 +22,11 @@ public class Semestre {
 	
 	
 	
-	public Curso darInscritos() {
+	public ArrayList<Curso>  darInscritos() {
 		return cursoInscrito;
 	}
 	
-	public Curso darAprobado() {
+	public ArrayList<Curso>  darAprobado() {
 		return cursoAprobado;
 	}
 	
